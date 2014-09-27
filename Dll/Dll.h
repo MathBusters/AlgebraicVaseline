@@ -1,10 +1,9 @@
-// Dll.h
-
 #pragma once
 
 using namespace System;
 
-namespace Dll {
+namespace Dll 
+{
 
 	public ref class Class1
 	{
