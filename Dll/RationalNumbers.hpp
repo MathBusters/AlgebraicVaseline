@@ -14,7 +14,6 @@ namespace Dll
 		const RationalNumbers operator-(const RationalNumbers& other);
 		const RationalNumbers operator*(const RationalNumbers& other);
 
-
 		const RationalNumbers Reverse();
 	private:
 		int _numerator;	// или дл€ больших вычислений можно добавить bool - контроль знака. “огда чисел дофига больше влезет)

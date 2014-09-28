@@ -64,3 +64,8 @@ const RationalNumbers RationalNumbers::operator *(const RationalNumbers& other)
 
 	return result;
 }
+
+const RationalNumbers RationalNumbers::Reverse()
+{
+	return RationalNumbers(_denominator, _numerator);
+}
